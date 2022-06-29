@@ -1,0 +1,44 @@
+@use 'src/styles/vars';
+
+#smallHeader {
+  max-width: 1120px;
+  margin: auto;
+
+  #smallHeader-menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #smallHeader-logoDiv {
+      display: flex;
+      padding: 0;
+      margin: 0;
+
+      #smallHeader-logo {
+        width: 3.5rem;
+        justify-content: center;
+        margin: 0 auto;
+  
+      }
+    }
+
+    #smallHeader_nav {
+      margin: 0;
+      padding: 0;
+      align-self: center;
+
+      #smallHeader_nav--profil {
+
+      }
+
+      #smallHeader_nav--logout {
+        
+      }
+    }
+  }
+}
+
+#smallHeader_nav--popup {
+  text-align: center;
+}

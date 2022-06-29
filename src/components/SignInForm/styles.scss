@@ -1,0 +1,55 @@
+@use 'src/styles/vars';
+
+#signIn_form {
+  max-width: 1120px;
+  margin: auto;
+
+  
+  #signIn_form-title {
+    font-family: vars.$font;
+    display: flex;
+    flex-direction: column;
+    
+    #signIn_form-img {
+      margin: 0 auto 1em;
+    }
+  }
+
+  #signIn_form--form {
+
+    #signIn_form--email {
+
+    }
+
+    #signIn_form--password {
+
+    }
+
+    #signIn_form--button {
+      background-color: vars.$mainColor;
+      color: white;
+    }
+  }
+
+  .ui.stackable.two.column.grid {
+    margin-top: 1em;
+
+
+    #signIn_form--signUp {
+      font-family: vars.$font;
+      text-align: center;
+  
+      #signIn_form--signUpLink {
+        color: vars.$mainColor;
+      }
+    }
+  
+    #signIn_form--forgotPassword {
+      text-align: center;
+  
+      #signIn_form--forgotPasswordLink {
+        color: vars.$mainColor;
+      }
+    }
+  }
+}

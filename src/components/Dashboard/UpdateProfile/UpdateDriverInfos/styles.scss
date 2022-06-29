@@ -1,0 +1,19 @@
+@use 'src/styles/vars';
+
+#updateDriverField {
+  justify-content: center;
+
+  @media screen and (max-width: 767px) {
+    .ui.container.stackable.grid {
+      padding: 0 32px; 
+    }
+  }
+
+  #updateDriverField-location {
+    padding-left: 0;
+  }
+
+  #updateDriverField-vehicule {
+    // padding-right: 0;
+  }
+}

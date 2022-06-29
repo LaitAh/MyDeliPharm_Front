@@ -1,0 +1,96 @@
+@use 'src/styles/vars';
+
+#dashboard-main--update {
+  max-width: 1120px;
+  margin: 16px auto;
+  padding: 0;
+
+  #updateProfile {
+
+    #update-profile--buttons {
+      padding-bottom: 16px;
+      justify-content: space-evenly;
+
+      #update-profile--save {
+        color: white;
+        margin: 8px 0;
+        
+        &.patient {
+          background-color: vars.$patientColor;
+        }
+        &.pharmacist {
+          background-color: vars.$pharmacistColor;
+        }
+        &.driver {
+          background-color: vars.$driverColor;
+        }
+      }
+  
+      #update-profile--return {
+        background-color: white;
+        color: vars.$patientColor;
+        border-color: vars.$patientColor;
+        border: 0.5px solid;
+        margin: 8px 0;
+
+        &.patient {
+          color: vars.$patientColor;
+          border-color: vars.$patientColor;
+        }
+        &.pharmacist {
+          color: vars.$pharmacistColor;
+          border-color: vars.$pharmacistColor;
+        }
+        &.driver {
+          color: vars.$driverColor;
+          border-color: vars.$driverColor;
+        }
+  
+      }
+  
+      #update-profile--delete {
+        margin: 8px 0;
+
+        &.patient {
+          &:hover {
+            color: vars.$patientColor;
+          }
+        }
+        &.pharmacist {
+          &:hover {
+            color: vars.$pharmacistColor;
+          }
+        }
+        &.driver {
+          &:hover {
+            color: vars.$driverColor;
+          }
+        }
+      }
+    }
+  }
+}
+
+#update-profile--popup {
+  padding-top: 20px;
+
+
+  #update-profile--delete-yes {
+
+  }
+
+  #update-profile--delete-cancel {
+    color: white;
+    margin-right: 16px;
+    
+    &.patient {
+      background-color: vars.$patientColor;
+    }
+    &.pharmacist {
+      background-color: vars.$pharmacistColor;
+    }
+    &.driver {
+      background-color: vars.$driverColor;
+    }
+  }
+}

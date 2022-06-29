@@ -1,0 +1,21 @@
+@use'src/styles/vars';
+
+#not-found {
+  text-align: center;
+  h1 {
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  #not-found-image {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  #not-found-button {
+    margin-bottom: 50px;
+    font-size: x-large;
+    color: white;
+    background-color: vars.$mainColor;
+    
+  }
+}

@@ -1,0 +1,14 @@
+@use 'src/styles/vars';
+
+#root {
+  font-family: vars.$font;
+  .app {
+    font-family: vars.$font;
+    background-color: white;
+
+  }
+
+  h2.ui.header {
+    font-family: vars.$font;
+  }
+}

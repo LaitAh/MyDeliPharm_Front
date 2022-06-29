@@ -1,0 +1,113 @@
+@use 'src/styles/vars';
+
+#search__form {
+  .input .button{
+    background-color:vars.$mainColor;
+    color: white;
+  }
+}
+// Mobile
+#banner--color {
+  background-image: url("../../../assets/img/BackgroundHomeBanner.svg");
+  background-size: cover;
+  background-position: center;
+
+  padding: 2em;
+  // width: 100vw;
+  text-align: center;
+
+  #banner {
+    max-width: 1120px;
+    background-color: transparent;
+    margin: auto;
+
+    #banner--title {
+      color: white;
+      font-family: vars.$font;
+      font-weight: vars.$boldWeight;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      justify-content: center;
+    }
+  
+    #banner--form {
+      background-color: white;
+      width: 100%;
+      padding: 1em;
+      text-align: left;
+      max-width: 100%;
+  
+      #search__form--header {
+        font-family: vars.$font;
+      }
+  
+      #search__form {
+        box-sizing: content-box;
+        width: 100%;
+        // display: flex;
+        
+        .ui.focus.action.input {
+          align-items: center;
+          width: 100%;
+  
+          #search__form--input {
+            font-family: vars.$font;
+            box-sizing: content-box;
+            width: 25%;
+            align-items: center;
+          }
+    
+          .ui.button {
+            // width: 25%;
+            font-family: vars.$font;
+            box-sizing: content-box;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  // Tablet
+  @media screen and (min-width: 723px) and (max-width: 932px) {
+    #banner {
+  
+      .banner--title {
+        padding: 0 5rem;
+      }
+  
+      #banner--form {
+        width: 75%;
+      }
+    }
+  }
+  
+  // Small Monitor
+  @media screen and (min-width: 933px) and (max-width: 1126px) {
+    #banner {
+  
+      .banner--title {
+        padding: 0 5rem;
+      }
+  
+      #banner--form {
+        width: 62%;
+      }
+    }
+  }
+  
+  // Large Monitor
+  @media screen and (min-width: 1127px) {
+    #banner {
+  
+      .banner--title {
+        padding: 0 5rem;
+      }
+  
+      #banner--form {
+        width: 50%;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,29 @@
+@use'src/styles/vars';
+
+#step1 {
+  .photo, .pdf-canvas {
+      height: 50%;
+    }
+  .inputViewer{
+      width: 100%;
+      height: 300px;
+    }
+  .cv--validated input, .mutual--validated input {
+    // background-color: grey;
+    border: none;
+    padding-left: 0px;
+  }
+  #submit-cv, #submit-mutual {
+    background-color: vars.$mainColor;
+    color: vars.$patientColor;
+    font-weight: 700;
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 40%;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,32 @@
+@use 'src/styles/vars';
+
+.about#home-about {
+  font-family: vars.$font;
+  font-weight: vars.$regularWeight;
+  .about-column#about-leftColumn {
+
+    p.about-chapter {  
+      font-family: vars.$font;
+      font-weight: vars.$regularWeight;
+      font-size: large;
+    }
+
+    .list.about-chapter {
+      margin-top: 0px;
+      p {
+      font-family: vars.$font;
+      font-weight: vars.$regularWeight;
+      font-size: large;
+      }
+    }
+  }
+
+  #h4-about {
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-family: vars.$font;
+    font-weight: vars.$boldWeight;
+    font-size: large;
+    color: white;
+  }
+}

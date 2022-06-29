@@ -1,0 +1,41 @@
+@use 'src/styles/vars';
+
+.step2 {
+  // display: flex;
+
+  .ui.segment.signin-selectedProfil {
+    display: inline-block;
+    color: white;
+    justify-content: center;
+    margin: 0 auto 2em;
+    
+    &#patientProfil {
+      background-color: vars.$patientColor;
+    }
+
+    &#pharmacistProfil {
+      background-color: vars.$pharmacistColor;
+    }
+
+    &#driverProfil {
+      background-color: vars.$driverColor;
+    }
+  }
+
+  #signUp_form {
+
+    #signUp_form--firstName {
+
+    }
+
+    #signUp_form--lastName {
+
+    }
+
+    #signUp_form--button {
+      background-color: vars.$mainColor;
+      color: white;
+    }
+
+  }
+}

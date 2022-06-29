@@ -1,0 +1,40 @@
+@use 'src/styles/vars';
+
+#profiles {
+  width: 100%;
+  padding: 0 8px 0 8px;
+ 
+  #profiles-title {
+    margin-top: 30px;
+    font-family: vars.$font;
+    font-weight: vars.$boldWeight;
+  }
+
+  // Mobile with accordion
+  .profiles-accordion {
+    flex-direction: column;
+
+    .profil-accordion {
+      margin-top: 5px;
+      padding: 0px;
+    }
+  }
+
+  // Desktop (without accordion)
+  .profiles-desktop {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  
+  .profil__content {
+    text-align: center;
+  }
+
+  .signin {
+    background-color: vars.$mainColor;
+  }
+
+}
+
+

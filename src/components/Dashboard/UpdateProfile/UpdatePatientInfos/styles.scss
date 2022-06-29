@@ -1,0 +1,160 @@
+@use 'src/styles/vars';
+
+#updatePatientField {
+  justify-content: center;
+
+  @media screen and (max-width: 767px) {
+    .ui.container.stackable.grid {
+      padding: 0 32px; 
+    }
+  }
+
+  #updatePatientField-left {
+    padding-left: 0;
+
+    #updatePatientField-left--weight {
+      padding-bottom: 16px;
+
+    }
+
+    #updatePatientField-left--age {
+
+      @media screen and (max-width: 767px) {
+        .ui.icon.input.updatePatientField-left--age {
+          max-width: max-content;
+          min-width: min-content;
+          margin: auto;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        .ui.icon.input.updatePatientField-left--age {
+          max-width: 115px;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        .ui.icon.input.updatePatientField-left--age {
+          max-width: 155px;
+        }
+      }
+
+      @media screen and (min-width: 1200px) {
+        .ui.icon.input.updatePatientField-left--age {
+          max-width: 188px;
+        }
+      }
+    }
+  }
+
+  #updatePatientField-middle {
+
+    @media screen and (min-width: 768px) {
+      #updatePatientField-middle--cvField {
+        padding-bottom: 16px;
+      }
+    }
+
+    #updatePatientField-middle--cvInput {
+      padding-top: 8px;
+
+      #updatePatientField-middle--cvInput_File {
+        margin-bottom: 0;
+      }
+      
+      #updatePatientField-middle--cvInput_h5 {
+        margin-top: 0;
+      }
+    }
+  }
+
+  #updatePatientField-right {
+    // padding-right: 0;
+
+    #updatePatientField-right--mutual {
+      
+      @media screen and (min-width: 768px) {
+        #updatePatientField-right--mutualField {
+          padding-bottom: 16px;
+        }
+      }
+
+      #updatePatientField-right--mutualField {
+    
+        #updatePatientField-right--mutualField_Number {
+  
+        }
+  
+        #updatePatientField-right--mutualField_Date {
+          padding-left: 0;
+
+          @media screen and (max-width: 767px) {
+            .ui.icon.input.updatePatientField-right--mutualField_Date_Field {
+              max-width: max-content;
+              min-width: min-content;
+              margin: auto;
+            }
+          }
+
+          @media screen and (min-width: 768px) {
+            .ui.icon.input.updatePatientField-right--mutualField_Date_Field {
+              max-width: 115px;
+            }
+          }
+
+          @media screen and (min-width: 992px) {
+            .ui.icon.input.updatePatientField-right--mutualField_Date_Field {
+              max-width: 155px;
+            }
+          }
+
+          @media screen and (min-width: 1200px) {
+            .ui.icon.input.updatePatientField-right--mutualField_Date_Field {
+              max-width: 188px;
+            }
+          }
+        }
+      }
+    }
+
+    #updatePatientField-right--mutualInput {
+      padding-top: 24px;
+
+      #updatePatientField-right--mutualInput_Field {
+      }
+
+      #updatePatientField-right--mutualInput_h5 {
+        margin-top: 0;
+  
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+div.inputfile.ui,  #inputfile {
+  width: 100%;
+  height: 42px;
+  margin: 10px 0 0 0;
+
+  .inputfile.button, #inputfile {
+    color: vars.$mainColor;
+    border: 0.5px solid;
+    border-color: vars.$mainColor;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .upload.icon {
+    color: vars.$mainColor;
+  }
+
+  .inputfile.button {
+    background-color: white;
+  }
+}

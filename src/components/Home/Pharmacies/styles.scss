@@ -1,0 +1,38 @@
+@use 'src/styles/vars';
+
+#map-column {
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+#map { 
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px
+}
+
+#home-pharmacies{
+  h2 {
+    margin-top: 0px;
+  }
+  #text-pharmacies {
+    padding-top: 24px;
+    font-family: vars.$font;
+    font-size: vars.$boldWeight;
+    font-weight: vars.$regularWeight;
+
+    .p-text-pharmacies {
+      margin-bottom: 18px;
+      font-family: vars.$font;
+      font-weight: vars.$regularWeight;
+      font-size: large;
+    }
+
+    #create-account {
+      margin-top: 10px;
+      background-color: vars.$mainColor;
+      color: white;
+    }
+  }
+}

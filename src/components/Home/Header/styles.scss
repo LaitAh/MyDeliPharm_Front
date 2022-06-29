@@ -1,0 +1,52 @@
+@use 'src/styles/vars';
+
+#header {
+  margin: auto;
+
+  #div-menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo#menu-image {
+      max-height: 3.5em;
+
+    }
+
+    #nav-buttons {
+      margin: 0;
+      padding: 0;
+      align-self: center;
+      .active.item {
+        background-color: vars.$mainColor;
+        color: white;
+        font-weight: vars.$boldWeight;
+      }
+      .item:hover {
+        background-color: vars.$mainColor;
+        color: white;
+      }
+
+      #nav_logout-button {
+        padding: 0;
+        margin: 0;
+      }
+  
+      #nav_menu-burger {
+  
+      }
+    }
+
+  }
+}
+
+#nav_menu-popup {
+  text-align: center;
+}
+
+#smallHeader_nav {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}

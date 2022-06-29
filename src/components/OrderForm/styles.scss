@@ -1,0 +1,71 @@
+@use'src/styles/vars';
+
+#order-tab {
+  max-width: 1120px;
+  margin: auto;
+  
+  .ui.pointing.secondary.menu {
+    justify-content: center;
+
+    .item {
+      width: 25%;
+      justify-content: center;
+
+      &.active {
+        border-color: vars.$mainColor;
+        color: vars.$mainColor;
+      }
+    }
+  }
+}
+
+div.inputfile.ui,  #inputfile {
+  width: 100%;
+  margin: 10px 0 0 0;
+
+  .inputfile.button, #inputfile {
+    color: vars.$mainColor;
+    border: 0.5px solid;
+    border-color: vars.$mainColor;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .upload.icon {
+    color: vars.$mainColor;
+  }
+
+  .inputfile.button {
+    background-color: white;
+  }
+}
+
+#h5-input {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  justify-content: start;
+  font-size: small;
+  font-weight: 600;
+}
+
+#nextstep {
+  background-color: vars.$mainColor;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  margin-top: 10px;
+  
+}
+
+.ui.form .field>label {
+  text-align: left;
+}
+
+#nextstep--validate {
+  background-color: rgba(128, 128, 128, 0.39);
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  margin-top: 10px;
+}

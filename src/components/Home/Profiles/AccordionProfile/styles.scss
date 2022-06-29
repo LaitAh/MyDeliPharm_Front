@@ -1,0 +1,39 @@
+@use 'src/styles/vars';
+
+.cards.profiles-accordion {
+  
+  #accordion__title {
+    border-radius: 5px;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+
+    &.accordion__title {
+
+      &--Patient {
+        background-color: vars.$patientColor;
+      }
+
+      &--Livreur {
+        background-color: vars.$driverColor;
+      }
+      
+      &--Pharmacien {
+        background-color: vars.$pharmacistColor;
+      }
+    }
+
+    .title__icon {
+      align-self: flex-end;
+    }
+  }
+
+  .accordion__content .profil__card {
+    padding: 15px;
+    width: 100%;
+  }
+}
+
+

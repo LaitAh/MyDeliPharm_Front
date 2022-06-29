@@ -1,0 +1,9 @@
+@use 'src/styles/vars';
+
+#title-warning--mutual, #title-warning--address, #title-warning--cv {
+  color: vars.$pharmacistColor;
+}
+#title-congrat {
+  color: vars.$patientColor;
+  text-align: center;
+}

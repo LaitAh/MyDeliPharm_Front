@@ -1,0 +1,41 @@
+@use'src/styles/vars';
+
+.row .field>label, .column .field>label {
+  font-weight: 700;
+  font-size: .92857143em;
+  
+}
+
+.row .field>select, #textarea-atcd  {
+  width: 100%;
+  background: white;
+  border: 1px solid rgba(34,36,38,.15);
+  border-radius: .28571429rem;
+  padding: .62em 1em;
+}
+
+#field-form-time {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+#submit-adress {
+  background-color: vars.$mainColor;
+  color: vars.$patientColor;
+  font-weight: 700;
+  font-size: small;
+  margin-bottom: 25px;
+}
+
+#address-form {
+  div.field:nth-last-of-type(1){
+    margin-bottom: 5px;
+  }
+  .address--validated input {
+    // background-color: grey;
+    border: none;
+    padding-left: 0px;
+  }
+ 
+}
+

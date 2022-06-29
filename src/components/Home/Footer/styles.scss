@@ -1,0 +1,39 @@
+@use 'src/styles/vars';
+
+#footer {
+  background-color: #C3CFD9;
+  color: black;
+  margin: 0 auto;
+  
+  .footer-column{
+    padding: 10px auto auto auto;
+    justify-content: space-between;
+    
+    .footer-list{
+      // background-color: #E0E6ED;
+      padding: 10px;
+      border-radius: 5px;
+      &--1{
+        background-color: vars.$patientColor;
+      }
+
+      &--2{
+        background-color: vars.$pharmacistColor;
+      }
+      &--3{
+        background-color: vars.$driverColor;
+      }
+
+      a.item {
+        color:white
+      }
+      a:hover.item {
+        color: vars.$mainColor;
+      }
+    }
+  }
+  .footer-h3 {
+    text-align: center;
+    margin-top: 15px;
+  }
+}

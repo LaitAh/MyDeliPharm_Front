@@ -1,0 +1,21 @@
+@use 'src/styles/vars';
+
+#smallFooter {
+  background-color: #C3CFD9;
+  text-align: center;
+  max-width: 1120px;
+  margin: auto;
+
+  .smallFooter-column {
+    padding: 10px auto auto auto;
+    justify-content: space-between;
+
+    .smallFooter-link {
+      
+    }
+  }
+}
+
+a:hover {
+  color: vars.$patientColor;
+}

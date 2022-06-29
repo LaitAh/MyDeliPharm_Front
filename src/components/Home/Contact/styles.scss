@@ -1,0 +1,10 @@
+@use 'src/styles/vars';
+
+#home-contact {
+  padding-bottom: 32px;
+}
+
+#contact-button-submit{
+  background-color: vars.$mainColor;
+  color: white;
+}

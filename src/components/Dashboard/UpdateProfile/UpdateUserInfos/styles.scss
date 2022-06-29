@@ -1,0 +1,52 @@
+@use 'src/styles/vars';
+
+#userInfos {
+
+  #userInfos-left {
+    
+      #updateUserField {
+
+        #updateUserField-firstName {
+          padding-left: 0;
+          padding-bottom: 0;
+          width: 100%;
+
+        }
+
+        #updateUserField-lastName {
+          padding-bottom: 0;
+
+        }
+
+        #updateUserField-phoneNumber {
+          padding-left: 0;
+
+        }
+    
+        #updateUserField-gender {
+          width: 100px;
+        }
+      }
+  }
+
+
+  #userInfos-right {
+
+    #updateUserField-address {
+
+      #updateUserField-address--street {
+        padding-bottom: 0;
+        padding-left: 0;
+      }
+
+      #updateUserField-address--postcode {
+        padding-left: 0;
+
+      }
+
+      #updateUserField-address--city {
+
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.pg-viewer-wrapper {
+  // overflow-y: unset !important;
+}
+
+.photo-viewer-container {
+  width: unset !important;
+  height: 500px !important;
+}
+
+.photo-viewer-container > img {
+  width: unset !important;
+  height: unset !important;
+}
+
+.step2 {
+  #inputViewer-prescription{
+    margin: 0 10%;
+    width: 80%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  #row-prescription {
+    margin: 0 10%;
+    width: 80%;
+    height: 500px;
+    overflow-y: scroll;
+  }
+}

@@ -1,0 +1,32 @@
+@use'src/styles/vars';
+
+#signIn_form-imgSegment {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  #signIn_form-img {
+    width: 3.5em;
+    justify-content: center;
+    margin: 0 auto 1em;
+  }
+}
+
+#signup-tab {
+  max-width: 1120px;
+  margin: auto;
+  
+  .ui.pointing.secondary.menu {
+    justify-content: center;
+
+    .item {
+      width: 33.3%;
+      justify-content: center;
+
+      &.active {
+        border-color: vars.$mainColor;
+        color: vars.$mainColor;
+      }
+    }
+  }
+}

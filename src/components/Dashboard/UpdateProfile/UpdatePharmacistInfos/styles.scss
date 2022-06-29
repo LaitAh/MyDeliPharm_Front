@@ -1,0 +1,19 @@
+@use 'src/styles/vars';
+
+#updatePharmacistField {
+  justify-content: center;
+
+  @media screen and (max-width: 767px) {
+    .ui.container.stackable.grid {
+      padding: 0 32px; 
+    }
+  }
+
+  #updatePharmacistField-rpps {
+    padding-left: 0;
+  }
+
+  #updatePharmacistField-openingTime {
+    // padding-right: 0;
+  }
+}

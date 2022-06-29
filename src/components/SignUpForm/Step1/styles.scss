@@ -1,0 +1,23 @@
+@use 'src/styles/vars';
+
+.step1 {
+  text-align: center;
+  
+  #signUp-title {
+  }
+
+  #patientProfil {
+    background-color: vars.$patientColor;
+    color: white;
+  }
+
+  #pharmacistProfil {
+    background-color: vars.$pharmacistColor;
+    color: white;
+  }
+
+  #driverProfil {
+    background-color: vars.$driverColor;
+    color: white;
+  }
+}
